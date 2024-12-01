@@ -31,7 +31,7 @@ bash "$SCRIPT_DIR/updateRecord.bash"
 # Schedule the script in cron if not already scheduled
 CRON_JOB="*/1 * * * * $SCRIPT_DIR/updateRecord.bash"
 if ! crontab -l 2>/dev/null | grep -q "$SCRIPT_DIR/updateRecord.bash"; then
-    log_message "Scheduling the script to run every 5 minutes..."
+    log_message "Scheduling the script to run every 1 minute..."
     (crontab -l 2>/dev/null; echo "$CRON_JOB") | crontab -
     log_message "Script successfully scheduled in crontab."
 fi
