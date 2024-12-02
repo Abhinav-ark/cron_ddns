@@ -50,7 +50,7 @@ bash main.bash
 API_KEY="<cloudflare_api_key>"
 ZONE_ID="<cloudflare_zone_id>"
 RECORD_ID="<dns_record_id>"
-DNS_NAME="<domain_name>"
+DNS_NAME="<subdomain_name>"
 IP_FILE="<path_to_store_last_updated_ip>"
 LOG_FILE="<path_to_store_ddns_logs>"
 ```
