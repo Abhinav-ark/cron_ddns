@@ -1,5 +1,5 @@
 # Cron DDNS
-A Cron based Bash script for `linux` systems to periodically update Cloudflare DNS records.
+A Cron based Bash script for `linux` systems to periodically update Cloudflare DNS records. Exclusively for `ipV6` Addresses.
 
 ## How to setup?
 1. You need a `Cloudflare Domain` (or) transfer your Domain to [Cloudflare](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/).
